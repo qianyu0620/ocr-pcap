@@ -51,11 +51,5 @@ python main.py <pcap文件路径> [--output <输出路径>]
 - 时间戳
 - 置信度
 
-https://github.com/qianyu0620/ocr-pcap/生成报告示例图/1.png?raw=true
-https://github.com/qianyu0620/ocr-pcap/生成报告示例图/2.png?raw=true
-https://github.com/qianyu0620/ocr-pcap/生成报告示例图/3.png?raw=true
-
-
-
 ## 测试pcap文件下载：https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
 ## Test pcap file download: https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
