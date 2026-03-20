@@ -4,11 +4,11 @@
 ## 技术架构
 
 ### 核心技术栈
-- **编程语言**: Python 3.10+   - **Programming Language   编程语言Programming Language**: Python 3.10- **Programming Language   编程语言**: Python 3.10
+- **编程语言**: Python 3.10+  
 - **PCAP解析**: Scapy
-- **OCR识别**: PaddleOCR (国产AI模型)- **OCR Recognition   OCR识别**: PaddleOCR (a domestic AI model)- **OCR Recognition   OCR识别**: PaddleOCR (a domestic AI model)
+- **OCR识别**: PaddleOCR (国产AI模型)
 - **敏感数据识别**: 正则表达式 + 深度学习模型
-- **数据提取**: requests, pyshark- **Data Extraction   数据提取**: requests, pyshark- **Data Extraction   数据提取**: requests, pyshark
+- **数据提取**: requests, pyshark
 
 ### 系统模块
 1. **流量解析模块**: 解析PCAP文件，提取HTTP/HTTPS/FTP等协议流量
@@ -20,29 +20,27 @@
 
 ## 安装依赖
 
-```bash   ”“bash   “bash”;“bash
-pip install -r requirements.txt运行 `pip install -r requirements.txt` 安装依赖包。运行 `pip install -r requirements.txt` 安装依赖包。Run `pip install -r requirements.txt` to install the dependencies.
+```bash 
+pip install -r requirements.txt
 ```
 
 ## 使用方法
 
 ### 一键启动
-```bash   ”“bash   “bash”;“bash
-python main.py test_sample.pcap运行 `python main.py test_sample.pcap` 命令。Run the command `python main.py test_sample.pcap`.
+```bash  
+python main.py test_sample.pcap
 ```
-
 ### 使用参数说明
-```bash   ”“bash   “bash”;“bash
-python main.py <pcap文件路径> [--output <输出路径>]python main.py < pcap file path> [--output ]python main.py < pcap file path> [--output ] python main.py < pcap file path> [--output ]
+```bash  
+python main.py <pcap文件路径> [--output <输出路径>]
 ```
 
 ## 系统要求
 - Windows 11
-- Python 3.10+   - Python 3.10- Python 3.10
-- Python 3.10
-- Intel 酷睿10代i5-10400 (推荐)Intel Core 10th Gen i5-10400 (Recommended)
+- Python 3.10+ 
+- Intel 酷睿10代i5-10400 (推荐)
 - 16G 内存
-- 处理时间: <10分钟
+- 处理时间: 10分钟
 
 ## 输出格式
 系统将生成符合example.csv格式的结果文件，包含以下字段：
@@ -53,8 +51,11 @@ python main.py <pcap文件路径> [--output <输出路径>]python main.py < pcap
 - 时间戳
 - 置信度
 
+![alt text](https://github.com/qianyu0620/ocr-pcap/生成报告示例图/1.png?raw=true)
+![alt text](https://github.com/qianyu0620/ocr-pcap/生成报告示例图/2.png?raw=true)
+![alt text](https://github.com/qianyu0620/ocr-pcap/生成报告示例图/3.png?raw=true)
 
 
 
-## 测试pcap文件下载：https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2nTest pcap file download: https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
+## 测试pcap文件下载：https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
 ## Test pcap file download: https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
