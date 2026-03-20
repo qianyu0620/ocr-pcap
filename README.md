@@ -53,3 +53,6 @@ python main.py <pcap文件路径> [--output <输出路径>]
 - 目标IP
 - 时间戳
 - 置信度
+
+
+## 测试pcap文件下载：https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
