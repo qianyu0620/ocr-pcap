@@ -1,0 +1,23 @@
+# 本地配置文件 - 不提交到版本控制
+
+# 用户自定义配置
+user:
+  name: "参赛团队名称"
+  email: "contact@example.com"
+
+# 性能调优
+performance:
+  # 根据实际硬件配置调整
+  max_workers: 4  # 最大并发工作线程数
+  batch_size: 100  # 批处理大小
+  
+# OCR优化
+ocr_optimization:
+  # 降低图片分辨率以提高处理速度
+  resize_factor: 1.0  # 1.0=原图, 0.5=一半大小
+  
+# 调试模式
+debug:
+  enabled: false  # 是否启用调试模式
+  save_intermediate_results: false  # 是否保存中间结果
+  verbose: false  # 是否输出详细信息

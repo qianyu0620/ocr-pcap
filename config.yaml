@@ -1,0 +1,48 @@
+# 系统配置文件
+
+# GPU配置
+gpu:
+  use_gpu: false       # 是否使用GPU加速OCR (当前PaddlePaddle未编译GPU支持)
+  gpu_mem: 4096        # GPU内存(MB)
+  gpu_id: 0           # GPU设备ID
+  batch_size: 8        # 批处理大小(越大越快,但占用更多显存)
+  precision: 'fp32'   # 精度模式: fp32(稳定), fp16(快速)
+  use_tensorrt: false # 是否使用TensorRT加速
+
+# AI分类配置
+ai:
+  enable: true          # 是否启用AI分类
+  api_url: "http://localhost:1234/v1/chat/completions"
+  model_name: "qwen2.5"  # LM Studio模型名称
+  timeout: 30           # API超时时间(秒)
+
+# PCAP解析配置
+pcap:
+  max_packets: null     # 最大解析包数,null表示全部
+
+# 敏感数据识别配置
+classifier:
+  use_regex: true      # 是否使用正则表达式
+  use_ai: true         # 是否使用AI增强
+  min_confidence: 0.8  # 最小置信度阈值
+  
+# 性能监控配置
+monitor:
+  interval: 0.5        # 采样间隔(秒)
+  enabled: true        # 是否启用监控
+  
+# 输出配置
+output:
+  directory: './output'
+  format: 'csv'        # 输出格式: csv, json
+  deduplicate: true    # 是否去重
+  
+# 日志配置
+logging:
+  level: 'INFO'        # 日志级别: DEBUG, INFO, WARNING, ERROR
+  file: './logs/system.log'  # 日志文件路径
+  
+# 部署配置
+deployment:
+  auto_detect_gpu: true  # 自动检测GPU
+  fallback_to_cpu: true  # GPU失败时回退到CPU
