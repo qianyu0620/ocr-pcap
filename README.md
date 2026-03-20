@@ -51,5 +51,10 @@ python main.py <pcap文件路径> [--output <输出路径>]
 - 时间戳
 - 置信度
 
+  
+![生成报告展示1](https://github.com/qianyu0620/ocr-pcap/blob/main/%E7%94%9F%E6%88%90%E6%8A%A5%E5%91%8A%E7%A4%BA%E4%BE%8B%E5%9B%BE/1.PNG)
+![生成报告展示2](https://github.com/qianyu0620/ocr-pcap/blob/main/%E7%94%9F%E6%88%90%E6%8A%A5%E5%91%8A%E7%A4%BA%E4%BE%8B%E5%9B%BE/2.PNG)
+![生成报告展示3](https://github.com/qianyu0620/ocr-pcap/blob/main/%E7%94%9F%E6%88%90%E6%8A%A5%E5%91%8A%E7%A4%BA%E4%BE%8B%E5%9B%BE/3.PNG)
+
 ## 测试pcap文件下载：https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
 ## Test pcap file download: https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
