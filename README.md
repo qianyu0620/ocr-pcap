@@ -51,9 +51,9 @@ python main.py <pcap文件路径> [--output <输出路径>]
 - 时间戳
 - 置信度
 
-![alt text](https://github.com/qianyu0620/ocr-pcap/生成报告示例图/1.png?raw=true)
-![alt text](https://github.com/qianyu0620/ocr-pcap/生成报告示例图/2.png?raw=true)
-![alt text](https://github.com/qianyu0620/ocr-pcap/生成报告示例图/3.png?raw=true)
+https://github.com/qianyu0620/ocr-pcap/生成报告示例图/1.png?raw=true
+https://github.com/qianyu0620/ocr-pcap/生成报告示例图/2.png?raw=true
+https://github.com/qianyu0620/ocr-pcap/生成报告示例图/3.png?raw=true
 
 
 
