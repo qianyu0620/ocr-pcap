@@ -1,4 +1,4 @@
-<img width   宽度="985" height="932" alt="捕获" src="https://github.com/user-attachments/assets/7c964a8a-46d0-44d6-933b-6af4a69f7eb4" /><img width   宽度="985" height="932" alt="image" src="https://github.com/user-attachments/assets/1862a703-55d7-4fb8-81f7-b03c06061b50" /># 敏感数据识别与分类系统
+<img width   宽度="985" height="932" alt="捕获" src="https://github.com/user-attachments/assets/7c964a8a-46d0-44d6-933b-6af4a69f7eb4" /><img width   宽度="985" height="932" alt="image" src="https://github.com/user-attachments/assets/1862a703-55d7-4fb8-81f7-b03c06061b50" /># 敏感数据识别与分类系统< img width=" 985" height=" 932" alt=" "Capture" src=" https://github.com/user-attachments/assets/7c964a8a-46d0-44d6-933b-6af4a69f7eb4" /> < img width   宽度=" 985" height=" 932" alt=" image" src=" https://github.com/user-attachments/assets/1862a703-55d7-4fb8-81f7-b03c06061b50" /> Sensitive Data Identification and Classification System
 
 ## 项目简介
 基于OCR技术和国产AI模型的敏感数据识别与分类系统，用于分析PCAP流量文件中的敏感信息。
@@ -55,12 +55,7 @@ python main.py <pcap文件路径> [--output <输出路径>]python main.py < pcap
 - 置信度
 
 
-## 生成报告效果：
-<img width   宽度="785" height="249" alt="捕获" src="https://github.com/user-attachments/assets/e6fa8c00-39ff-48e2-b308-1fdc0037c98e" />
-<img width   宽度="934" height="871" alt="捕获3" src="https://github.com/user-attachments/assets/521f2199-54c8-4199-8de3-f1e560266341" />
-<img width   宽度="985" height="932" alt="捕获2" src="https://github.com/user-attachments/assets/84ee1e17-0bdd-4177-8616-1a9cf3301f45" />
-
-
 
 
 ## 测试pcap文件下载：https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
+## Test pcap file download: https://pan.baidu.com/s/1RS09TED2zWpY1A6Z5l0Byw?pwd=bq2n
